@@ -6,7 +6,7 @@ sum02 <- sum(nei[nei$year == "2002",4])
 sum05 <- sum(nei[nei$year == "2005",4])
 sum08 <- sum(nei[nei$year == "2008",4])
 
-yrs <- as.numeric(c( "1999", "2002", "2005","2008"))
+yrs <- <- unique(nei[, 6])
 
 vals <- c(sum99, sum02, sum05, sum08)
 
